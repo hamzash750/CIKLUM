@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e779e98f-db26-4e84-8200-a8d922ef6870": {
+      "ProjectGuid": "e779e98f-db26-4e84-8200-a8d922ef6870",
+      "DisplayName": "EmployeeManagement.API",
+      "ColorIndex": 0
+    },
+    "d3aaec95-6827-4342-ad97-c25c0a1e0e0b": {
+      "ProjectGuid": "d3aaec95-6827-4342-ad97-c25c0a1e0e0b",
+      "DisplayName": "UserMangement.Business",
+      "ColorIndex": 1
+    },
+    "e8b784dd-fe0f-46c2-9aaa-7cbb2ab91c0a": {
+      "ProjectGuid": "e8b784dd-fe0f-46c2-9aaa-7cbb2ab91c0a",
+      "DisplayName": "EmployeeManagement.Business",
+      "ColorIndex": 2
+    },
+    "dc2047f4-ba91-4c47-aff1-5131fb0b308b": {
+      "ProjectGuid": "dc2047f4-ba91-4c47-aff1-5131fb0b308b",
+      "DisplayName": "EmployeeManagement.Model",
+      "ColorIndex": 3
+    },
+    "2bf0d43b-17cb-49d4-bd00-0b3b5d9ec730": {
+      "ProjectGuid": "2bf0d43b-17cb-49d4-bd00-0b3b5d9ec730",
+      "DisplayName": "EmployeeManagement.Repository",
+      "ColorIndex": 4
+    },
+    "f67b3812-28f8-4441-9ebc-8597f56f2387": {
+      "ProjectGuid": "f67b3812-28f8-4441-9ebc-8597f56f2387",
+      "DisplayName": "EmployeeManagement.ViewModel",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "6e1d9850-ec14-4d01-90cf-a5d9370beae8": {
+      "ProjectGuid": "6e1d9850-ec14-4d01-90cf-a5d9370beae8",
+      "DisplayName": "UserManagement.Common",
+      "ColorIndex": 6
+    },
+    "20a083de-5686-4507-9c86-e8058db30afe": {
+      "ProjectGuid": "20a083de-5686-4507-9c86-e8058db30afe",
+      "DisplayName": "UserManagement.Common",
+      "ColorIndex": 7
+    },
+    "677694ba-f721-4b19-b612-685609c1700d": {
+      "ProjectGuid": "677694ba-f721-4b19-b612-685609c1700d",
+      "DisplayName": "UserManagement.OAuth2",
+      "ColorIndex": 8
+    },
+    "1f2b2cb2-e82a-4f9e-a705-ca4de3364129": {
+      "ProjectGuid": "1f2b2cb2-e82a-4f9e-a705-ca4de3364129",
+      "DisplayName": "IDServer",
+      "ColorIndex": 9
+    },
+    "a02a7611-cb74-4b57-b7db-1282cd20fef6": {
+      "ProjectGuid": "a02a7611-cb74-4b57-b7db-1282cd20fef6",
+      "DisplayName": "UserManagement.OAuthServer",
+      "ColorIndex": 10
+    },
+    "6512603f-c02e-46c3-a025-39ace9fdd283": {
+      "ProjectGuid": "6512603f-c02e-46c3-a025-39ace9fdd283",
+      "DisplayName": "UserManagement.OAuth",
+      "ColorIndex": 11
+    },
+    "3dcdf17b-0e61-484e-9849-cb8d0cb34bbf": {
+      "ProjectGuid": "3dcdf17b-0e61-484e-9849-cb8d0cb34bbf",
+      "DisplayName": "EmployeeManagement.API",
+      "ColorIndex": 12
+    },
+    "f46fadd7-624e-4f8c-b7c5-fd8f096344e1": {
+      "ProjectGuid": "f46fadd7-624e-4f8c-b7c5-fd8f096344e1",
+      "DisplayName": "EmployeeManagement.Business",
+      "ColorIndex": 13
+    },
+    "4b0bbe87-482e-4e74-8f81-8f4411161c30": {
+      "ProjectGuid": "4b0bbe87-482e-4e74-8f81-8f4411161c30",
+      "DisplayName": "EmployeeManagement.Model",
+      "ColorIndex": 14
+    },
+    "dcf9d827-2fd7-42a0-8e55-133eca7c7405": {
+      "ProjectGuid": "dcf9d827-2fd7-42a0-8e55-133eca7c7405",
+      "DisplayName": "EmployeeManagement.Repository",
+      "ColorIndex": 15
+    },
+    "c569fd5c-f823-4fe6-8b54-d24007a422a0": {
+      "ProjectGuid": "c569fd5c-f823-4fe6-8b54-d24007a422a0",
+      "DisplayName": "EmployeeManagement.ViewModel",
+      "ColorIndex": 0
+    },
+    "3c341718-b740-4d59-a4c0-9ab240cbb03c": {
+      "ProjectGuid": "3c341718-b740-4d59-a4c0-9ab240cbb03c",
+      "DisplayName": "EmployeeManagementTest",
+      "ColorIndex": 1
+    },
+    "98c7e471-9435-4310-ab20-7837fa2f527c": {
+      "ProjectGuid": "98c7e471-9435-4310-ab20-7837fa2f527c",
+      "DisplayName": "EmployeeManagementTest",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

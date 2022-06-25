@@ -1,0 +1,124 @@
+{
+	"variables": [],
+	"info": {
+		"name": "EmployeeManagement",
+		"_postman_id": "01d92250-20bb-5fea-bd62-7321c3a81163",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "All Employee List",
+			"request": {
+				"url": "https://localhost:44338/Employee/GetEmployeeList",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Employee By Id",
+			"request": {
+				"url": {
+					"raw": "https://localhost:44338/Employee/GetEmployeeDetails?Id=110c163e-d02e-4685-807f-ee2b257b128d",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44338",
+					"path": [
+						"Employee",
+						"GetEmployeeDetails"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "110c163e-d02e-4685-807f-ee2b257b128d",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Insert New Employee",
+			"request": {
+				"url": "https://localhost:44338/EmployeeManagement/InsertNewEmployee",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"name\": \"Test Hamza\",\r\n    \"age\": \"40\",\r\n    \"dateOfBirth\": \"6/24/2022\",\r\n    \"salary\": 11000,\r\n    \"address\": \"test Address\"\r\n\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update Employee Details",
+			"request": {
+				"url": "https://localhost:44338/EmployeeManagement/UpdateEmployee",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "   {\n        \"id\": \"110c163e-d02e-4685-807f-ee2b257b128d\",\n        \"name\": \"John\",\n        \"age\": \"40\",\n        \"dateOfBirth\": \"6/24/2022\",\n        \"salary\": 5000,\n        \"address\": \"test Update Address\"\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Employee",
+			"request": {
+				"url": {
+					"raw": "https://localhost:44338/EmployeeManagement/DeleteEmployee?Id=8fada61a-e757-4abb-c6d5-08da5678caf5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44338",
+					"path": [
+						"EmployeeManagement",
+						"DeleteEmployee"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "8fada61a-e757-4abb-c6d5-08da5678caf5",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
