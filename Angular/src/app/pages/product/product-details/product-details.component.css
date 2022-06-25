@@ -1,0 +1,9 @@
+.fx-closeButton{
+    float: right;background:red ;cursor: pointer;color: white;
+}
+.fx-detailsImage{
+    width:100%;height:500px;padding-bottom: 10px;
+}
+.checked {
+    color: orange;
+}

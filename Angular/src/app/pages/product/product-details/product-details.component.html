@@ -1,0 +1,19 @@
+
+<button class="fx-closeButton" (click)="closeDetailsDiv()">Close</button>
+<b>{{product?.title}} Details</b>
+<img [src]="product?.image" class="fx-detailsImage" >
+    <p>{{product?.title}}</p>
+    <p>{{calculateDiscountInPercentage(product?.price)}}</p>
+    <p>{{product?.description}}</p>
+    
+<p>Rating: 
+    ({{product?.rating?.count}})
+    <span class="fa fa-star" [ngClass]="{'checked':checkProductRating(product?.rating?.rate)}"></span>
+<span class="fa fa-star" [ngClass]="{'checked': checkProductRating(product?.rating?.rate)}"></span>
+<span class="fa fa-star" [ngClass]="{'checked': checkProductRating(product?.rating?.rate)}"></span>
+<span class="fa fa-star" [ngClass]="{'checked': checkProductRating(product?.rating?.rate)}"></span>
+<span class="fa fa-star" [ngClass]="{'checked': checkProductRating(product?.rating?.rate)}"></span>
+
+</p>
+<br>
+ Discount <input type="number" [(ngModel)]="discount">

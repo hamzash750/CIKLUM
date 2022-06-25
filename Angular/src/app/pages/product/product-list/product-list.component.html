@@ -1,0 +1,19 @@
+<app-loader [text]="'Loading...'" *ngIf="isLoading"></app-loader>
+<div *ngIf="!details">
+  <h1>Ciklum Store</h1>
+<div style="float: right">
+  Showing  {{checkRecord()}} Records out of {{allProductList.length}}
+  <button class="fx_PButton" (click)="previousProduct()">Previous</button>
+  <button class="fx-bButton" (click)="nextProduct()">Next</button>
+</div>
+<ng-container *ngIf="!isLoading">
+        <div class="row" style="margin-top: 4rem">
+            <div (click)="showDetails(item)" *ngFor="let item of productList" class="column">
+                <img [src]="item.image" class="fx-image" >
+                <b>{{item.title}}</b>
+                <p>{{item.price}}</p>
+            </div>
+        </div>
+</ng-container>
+</div>
+<app-product-details *ngIf="details" (productInformation)="closeDetails()" [product]="pDetails"></app-product-details>
